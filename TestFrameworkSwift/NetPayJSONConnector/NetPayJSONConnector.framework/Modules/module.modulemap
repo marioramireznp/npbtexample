@@ -1,0 +1,6 @@
+framework module NetPayJSONConnector {
+  umbrella header "NetPayJSONConnector.h"
+
+  export *
+  module * { export * }
+}

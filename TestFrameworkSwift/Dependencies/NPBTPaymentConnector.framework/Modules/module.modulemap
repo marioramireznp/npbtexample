@@ -1,0 +1,6 @@
+framework module NPBTPaymentConnector {
+  umbrella header "NPBTPaymentConnector.h"
+
+  export *
+  module * { export * }
+}

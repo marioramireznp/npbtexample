@@ -1,0 +1,11 @@
+framework module NPBTSPaymentConnector {
+  umbrella header "NPBTSPaymentConnector.h"
+
+  export *
+  module * { export * }
+}
+
+module NPBTSPaymentConnector.Swift {
+    header "NPBTSPaymentConnector-Swift.h"
+    requires objc
+}

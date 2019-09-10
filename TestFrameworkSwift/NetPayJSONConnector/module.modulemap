@@ -1,0 +1,4 @@
+module NetPayJSONConnector {
+    header "NetPayJSONConnector.framework/Headers/NetPayJSONConnector.h"
+    export *
+}

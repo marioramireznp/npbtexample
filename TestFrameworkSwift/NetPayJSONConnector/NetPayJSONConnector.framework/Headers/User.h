@@ -1,0 +1,55 @@
+@interface User : NSObject {
+  NSNumber * userId;
+  NSString * locale;
+  NSString * accountDesc;
+  NSNumber * clientId;
+  NSString * hint;
+  NSString * accountName;
+  NSString * newUserlogin;
+  NSString * newPassWord;
+  NSString * roleName;
+  NSString * status;
+  NSString * store;
+  NSNumber * activeFlg;
+  NSNumber * enforcePasswordPolicy;
+  NSNumber * enforcePasswordExpiration;
+  NSNumber * passwordChangeLogin;
+  NSString * userType;
+  NSString * email;
+}
+
+@property(nonatomic, retain) NSString * email;
+@property(nonatomic, retain) NSNumber * userId;
+@property(nonatomic, retain) NSString * locale;
+@property(nonatomic, retain) NSString * accountDesc;
+@property(nonatomic, retain) NSNumber * clientId;
+@property(nonatomic, retain) NSString * hint;
+@property(nonatomic, retain) NSString * accountName;
+@property(nonatomic, retain, getter=theNewUserlogin) NSString * newUserlogin;
+@property(nonatomic, retain, getter=theNewPassWord) NSString * newPassWord;
+@property(nonatomic, retain) NSString * roleName;
+@property(nonatomic, retain) NSString * status;
+@property(nonatomic, retain) NSString * store;
+@property(nonatomic, retain) NSNumber * activeFlg;
+@property(nonatomic, retain) NSNumber * enforcePasswordPolicy;
+@property(nonatomic, retain) NSNumber * enforcePasswordExpiration;
+@property(nonatomic, retain) NSNumber * passwordChangeLogin;
+@property(nonatomic, retain) NSString * userType;
+- (void) setEmail:(NSString *)email;
+- (void) setUserId:(NSNumber *)value;
+- (void) setLocale:(NSString *)value;
+- (void) setAccountDesc:(NSString *)value;
+- (void) setClientId:(NSNumber *)value;
+- (void) setHint:(NSString *)value;
+- (void) setAccountName:(NSString *)value;
+- (void) setNewUserlogin:(NSString *)value;
+- (void) setNewPassWord:(NSString *)value;
+- (void) setRoleName:(NSString *)value;
+- (void) setStatus:(NSString *)value;
+- (void) setStore:(NSString *)store;
+- (void) setActiveFlg:(NSNumber *)activeFlg;
+- (void) setEnforcePasswordPolicy:(NSNumber *)enforcePasswordPolicy;
+- (void) setEnforcePasswordExpiration:(NSNumber *)enforcePasswordExpiration;
+- (void) setPasswordChangeLogin:(NSNumber *)passwordChangeLogin;
+- (void) setUserType:(NSString *)userType;
+@end
